@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>My personal page</h1>
+  <nav>
+    <ul>
+      <li><a href="#skills">My professional skills</a></li>
+      <li><a href="#contacts">My contacts</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+    </ul>
+  </nav>
+  <img src="/images/image.jpg" alt="Olga" width="240" height="320">
+  <h2>About me</h2>
+  <p> I'm young honey girl. My work is marketing and branding. </p>
+  <audio src="music.mp3" controls></audio>
+  <div id="skills">
+    <h2>My professional skills</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Managemen</th>
+          <th>Development</th>
+          <th>Languages</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>HTML</td>
+          <td>Belorussian</td>
+        </tr>
+        <tr>
+          <td>Branding</td>
+          <td>CSS</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td>PR</td>
+          <td>JavaScript</td>
+          <td>English</td>
+        </tr>
+    </table>
+  </div>
+  <div id="contacts">
+    <h2>My contacts</h2>
+    <div>
+      <a href="https://t.me/calachyonok">
+        <img src="/images/telegram.png" alt="telegram" width="20" height="20">
+      </a>
+    </div>
+
+    <div>
+      <a href="https://www.instagram.com/calachyonok/">
+        <img src="/images/instagram.png" alt="instagram" width="20" height="20">
+      </a>
+    </div>
+
+    <div>
+      <a href="mailto:calachyowa.olga@yandexby">
+        <img src="/images/email.png" alt="email" width="20" height="20">
+      </a>
+    </div>
+
+    <div>
+      <a href="tel:+375292256954">
+        <img src="/images/call.png" alt="call" width="20" height="20">
+      </a>
+    </div>
+
+  </div>
+  <div id="Feedback">
+    <h2>Feedback</h2>
+
+    <form action="/" method="POST">
+      <div>
+        <label for="surname">Put surname</label>
+        <input type="text" id="surname" placeholder="Kalacheva">
+      </div>
+      <div>
+        <label for="name">Put name</label>
+        <input type="text" id="name" placeholder="Olga">
+      </div>
+      <div>
+        <label for="patronymic">Put patronymic</label>
+        <input type="text" id="patronymic" placeholder="Yrievna">
+      </div>
+      <div>
+        <b>Choose gender</b>
+        <div>
+          <label for="male">Male</label>
+          <input checked type="radio" id="male" name="gender" value="Male">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="Female">
+        </div>
+      </div>
+      <div>
+        <label for="children"><b>Do you have children?</b></label>
+        <input checked type="checkbox" id="children" name="children" value="+">
+      </div>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</body>
+
+</html>
